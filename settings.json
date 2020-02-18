@@ -1,0 +1,165 @@
+{
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "python.jediEnabled": false,
+    "editor.suggestSelection": "first",
+    "editor.fontSize": 14,
+    "editor.wordWrap": "on",
+
+
+    "workbench.colorTheme": "Monokai Pro",
+    "workbench.colorCustomizations": {
+        "sideBar.background": "#141414",
+        "activityBar.background": "#141414",
+        "editor.background": "#181818",
+        "panel.background": "#181818",
+        "terminal.background": "#181818",
+        "editorGroupHeader.tabsBackground": "#181818",
+        "tab.inactiveBackground": "#181818",
+        "editorGutter.background": "#181818"
+    },
+    
+
+    "gitlens.codeLens.enabled": false,
+    
+    
+    "bracket-pair-colorizer-2.colorMode": "Independent",
+    "bracket-pair-colorizer-2.colors": [
+        "White",
+        "Gold",
+        "Orchid"
+    ],
+
+
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "/Library/Frameworks/Python.framework/Versions/3.8/bin/flake8",
+    "python.linting.lintOnSave": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=100"
+    ],
+
+
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": [
+        "--max-line-length=100",
+        //"--aggressive", "--aggressive",
+    ],
+
+
+
+
+
+    "files.associations": {
+        //"**/templates/*.html": "django-html",
+        //"**/templates/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements",
+        "*.html": "html",
+        //"*.js": "javascriptreact",
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html",
+        "vue-html": "html",
+    },
+    "emmet.syntaxProfiles": {
+        "html": {
+           "tag_nl": true,
+           "tag_nl_leaf": true
+        }
+      },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.iconTheme": "seti",
+    "explorer.confirmDelete": false,
+    "html-css-class-completion.enableEmmetSupport": true,
+    "[html, django-html]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true
+    },
+    "workbench.editor.showTabs": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "cSpell.userWords": [
+        "Cras",
+        "Donec",
+        "Nullam",
+        "Tempora",
+        "boto",
+        "choisu",
+        "copiosae",
+        "crossorigin",
+        "dapibus",
+        "denique",
+        "ecommerce",
+        "egestas",
+        "eget",
+        "eiut",
+        "endblock",
+        "euismod",
+        "facilisis",
+        "fierentis",
+        "fuisset",
+        "gmail",
+        "gravida",
+        "icontext",
+        "inimicu",
+        "instructior",
+        "justo",
+        "legimus",
+        "lightbulb",
+        "linkedin",
+        "mamazon",
+        "metus",
+        "mnesarchum",
+        "nibh",
+        "oratio",
+        "pinterest",
+        "porta",
+        "saperet",
+        "signup",
+        "sqlite",
+        "tabindex",
+        "ultricies",
+        "utamur",
+        "utqui",
+        "vehicula",
+        "volumus",
+        "youtube"
+    ],
+
+    
+
+
+    "css_peek.peekFromLanguages": [
+        "html",
+        "ejs",
+        "erb",
+        "php",
+        "javascriptreact",
+        "typescriptreact",
+        "typescript",
+        "javascript",
+        "django-html"
+    ],
+    "editor.minimap.enabled": true,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "breadcrumbs.enabled": true,
+    "workbench.activityBar.visible": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.printWidth": 100,
+    "prettier.tabWidth": 4,
+    "html.format.wrapAttributes": "auto",
+    "html.format.wrapLineLength": 100,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "cSpell.language": "en,lorem",
+    "better-comments.highlightPlainText": true,
+}
