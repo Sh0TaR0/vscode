@@ -1,0 +1,11 @@
+{
+  "HTML": {
+    "indent_size": 4,
+    "indent_char": " ",
+    "wrap_line_length": 100,
+    "wrap_prose": "always",
+    "beautifiers": [
+      "Pretty Diff"
+    ]
+  }
+}
