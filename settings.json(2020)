@@ -1,0 +1,69 @@
+    "python.pythonPath": "/usr/local/bin/python3",
+    
+    "bracket-pair-colorizer-2.colorMode": "Independent",
+    "bracket-pair-colorizer-2.colors": [
+        "White",
+        "White",
+        "Orchid"
+    ],
+    
+    "unibeautify.defaultConfig": "/Users/USERNAME/USERFOLDER/.unibeautifyrc.json",
+    "emmet.includeLanguages": {
+        "django-html": "html",
+    },
+    "[django-html]": {
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "Glavin001.unibeautify-vscode"
+    },
+    
+     "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "/Library/Frameworks/Python.framework/Versions/3.8/bin/flake8",
+    "python.linting.lintOnSave": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=100"
+    ],
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": [
+        "--max-line-length=100",
+    ],
+    
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "entity.tag.tagbraces.django" // {%%} {{}} 全て 
+                ],
+                "settings": {
+                    "foreground": "#fcfcfa"
+                }
+            },
+            {
+                "scope": [
+                    //"storage.type.templatetag.django", // href={% %}
+                    //"storage.type.customtemplatetag.django", // src={% %}
+                    //"storage.type.variable.django", // {{ }}
+                    "constant.other", // static
+                    "entity.tag.filter-pipe.django", // |
+                    "entity.name.function.filter.django", // 未確認
+                    "comment.line.number-sign.django", // 未確認
+                    "constant.other.tag.name.django", // statc等
+                    "keyword.control.tag-name.django", // if else url
+                    "keyword.operator.filter-argument.django", //オペレーター
+                    "keyword.operator.assignment.django", // ==
+                    "keyword.operator.argument-separator.django", // ,
+                    "keyword.operator.condition.django", // > <
+                    "keyword.operator.getter.django", // .
+                    "keyword.operator.django", // in and
+                    "string.unquoted.tag-string.django" // 文字
+                ],
+                "settings": {
+                    "foreground": "#ab9df2"
+                }
+            },
+        ]
+    },
